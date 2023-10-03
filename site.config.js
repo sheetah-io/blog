@@ -2,9 +2,9 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Sheetah",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "CEO",
-    bio: "I develop everything using node.",
+    image: "/profile.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Cheetah-fast Excel Export API",
+    bio: "",
     email: "contact@sheetah.io",
     linkedin: "sheetah-io",
     github: "sheetah-io",
@@ -12,21 +12,21 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Sheetah`,
+      name: `sheetah.io`,
       href: "https://sheetah.io",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "Sheetah Blog",
-    description: "Welcome to Sheetah Blog!",
+    title: "Sheetah's Dev Blog",
+    description: "Welcome to Sheetah Dev Blog!",
   },
 
   // CONFIG configration (required)
   link: "https://blog.sheetah.io",
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image.sheetah.io", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "/sheetah-og-image.jpg", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {

@@ -46,7 +46,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.linkedin && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+            href={`https://www.linkedin.com/company/${CONFIG.profile.linkedin}`}
             rel="noreferrer"
             target="_blank"
           >
